@@ -1,0 +1,16 @@
+.episode__container {
+  overflow-x: hidden;
+}
+
+.episode__select{ 
+  width: 150px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.card__container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}

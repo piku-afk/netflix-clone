@@ -1,0 +1,33 @@
+.card {
+  min-width: 250px;
+  max-height: 400px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, .5);
+  overflow-y: auto;
+
+}
+.card:last-child {
+  margin-right: 100px;
+}
+
+.card__text {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.episode__number {
+  font-size: 20px;
+  margin: 0;
+}
+.episode__name {
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+.episode__overview {
+  font-size: 14px;
+  margin: 0;
+}

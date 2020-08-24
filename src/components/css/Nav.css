@@ -1,0 +1,17 @@
+.nav-bar {
+  padding: 5px 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  height: 8vh;
+  transition: all 250ms;
+}
+
+.nav__logo {
+  width: 120px;
+}
+.nav__logo--black {
+  background-color: #111;
+}

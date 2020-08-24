@@ -1,0 +1,16 @@
+.details__text {
+  width: 90%;
+  max-width: 500px;
+}
+
+.details__title {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.small__container {
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+.small__container > small {
+  margin-right: 10px;
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 85vh;
+  background-size: cover;
+  background-position: center 0%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.header__container {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+}
+.header__button {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 8px 25px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  margin-right: 5px;
+  color: #E50914;
+  transition: all 250ms;
+  font-weight: 700;
+  font-size: 16px;
+}
+.header__button:hover {
+  background-color: white;
+}
+.header__button i {
+  font-size: 12px;
+  margin-right: 2px;
+}
